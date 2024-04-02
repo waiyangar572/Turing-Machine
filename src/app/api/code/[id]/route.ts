@@ -272,7 +272,7 @@ const GET = async (req: NextRequest, { params }: { params: { id: string } }) => 
     }
 };
 
-function generateStaticParamas() {
+export function generateStaticParamas() {
     const ids = [111, 112, 113];
 
     return ids.map((id) => ({ id: id }));
